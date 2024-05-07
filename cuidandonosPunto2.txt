@@ -1,0 +1,19 @@
+Integer CalcularTiempoEstimadoViaje(){
+	ListaDirecciones = this.getDirecciones();
+	
+	Integer i = 1;
+	Integer tiempoLlegadaViaje = 0;
+
+	Direccion direccionPartida = ListaDirecciones.get(0);
+	Direccion direccionLlegada = ListaDirecciones.get(i);
+
+	while(DirreccionPartida =! ListaDirecciones.get(ListaDirecciones.size() - 1)){
+		tiempoLlegadaViaje = TiempoDelRecorrido(direccionPartida, direccionLlegada);
+		direccionPartida = direccionLlegada;
+		direccionLlegada = ListaDirecciones.get(i++);
+		tiempoLlegadaViaje = this.tipoDeAccion.CalcularTiempoExtra();
+	}
+
+	return tiempoLlegadaViaje;
+	
+}
