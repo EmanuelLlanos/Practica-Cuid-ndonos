@@ -1,5 +1,4 @@
 # Practica-Cuid-ndonos
 
 Miembros:
-Emanuel Llanos
-Rodrigo Sarmiento
+Emanuel Llanos, Rodrigo Sarmiento
